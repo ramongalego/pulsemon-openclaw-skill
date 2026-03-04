@@ -1,6 +1,11 @@
 ---
 name: pulsemon
 description: Monitor cron jobs and background tasks with PulseMon. Check monitor status, create/update/delete monitors, view incidents, and manage alerts.
+metadata:
+  openclaw:
+    requires:
+      env:
+        - PULSEMON_API_KEY
 ---
 
 # PulseMon Skill
